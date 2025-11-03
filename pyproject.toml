@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssm-editor"
+version = "0.1.0"
+description = "Edit AWS SSM parameters locally in your favorite editor"
+readme = "README.md"
+authors = [{ name = "Praveen Kumar" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = ["boto3", "tabulate"]
+
+[project.urls]
+Homepage = "https://github.com/<your-username>/ssm-editor"
+Repository = "https://github.com/<your-username>/ssm-editor"
+
+[project.scripts]
+ssm-editor = "ssm_editor.cli:main"
