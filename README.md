@@ -9,7 +9,7 @@ A lightweight CLI tool to fetch, edit, and update **AWS SSM Parameter Store** va
 You can install the package from [PyPI](https://pypi.org/project/ssm-editor/):
 
 ```bash
-pip install ssm-editor
+pip3 install ssm-editor
 ```
 
 Alternatively, install directly from source:
@@ -17,7 +17,7 @@ Alternatively, install directly from source:
 ```bash
 git clone https://github.com/praveenraghav01/ssm-editor.git
 cd ssm-editor
-pip install -e .
+pip3 install -e .
 ```
 
 ---
@@ -57,7 +57,7 @@ The tool will:
 ## 🤝 Contributing
 
 Contributions are welcome!  
-Feel free to open issues or submit pull requests on [GitHub](https://github.com/<your-username>/ssm-editor).
+Feel free to open issues or submit pull requests on [GitHub](https://github.com/praveenraghav01/ssm-editor).
 
 ---
 
